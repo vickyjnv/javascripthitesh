@@ -20,6 +20,8 @@ let resetDay = function (todo) {
 }
 
 let getSummaryOfDay = function (todo) {
-    let meetLeft = todo.meetings - todo.meetDone
+    let meetLeft = todo.meetings + todo.meetDone
     return `you have ${meetLeft} meetings today`
 }
+
+
