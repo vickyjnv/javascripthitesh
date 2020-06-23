@@ -4,19 +4,18 @@
 // console.log(giveType)
 
 
-const adder = 5 + false
-console.log(adder)
+// const adder = 5 + false
+// console.log(adder)
 
 
 
-const loginDetials = []
+const loginDetails = ''
 //login for getting details from db
 
 const loginId = loginDetails[0]
 
-if (loginId) {
+if (loginDetails) {
     console.log('allow user to login');
-
 } else {
     console.log('auth failed')
 }
