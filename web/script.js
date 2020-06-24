@@ -2,5 +2,5 @@
 //document.title = 'fuck you'
 
 
-// const myElement = doccument.querySelectorAll('#idone')
-// console.log(myElement[0]);
+const myElement = document.querySelectorAll('.classone')
+console.log(myElement[0]);
