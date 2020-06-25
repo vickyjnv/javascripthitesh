@@ -15,3 +15,13 @@ const myNewPara = document.createElement('p')
 
 myNewPara.textContent = 'i was added via js'
 document.querySelector('body').appendChild(myNewPara)
+
+// document.querySelector('button').addEventListener('click', () => {
+//     // alert('button pressed')
+
+// })
+
+document.querySelector('button').addEventListener('click', (event) => {
+    // alert('button pressed')
+    event.target.textContent = 'i was clicked'
+})
