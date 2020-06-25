@@ -2,5 +2,11 @@
 //document.title = 'fuck you'
 
 
-const myElement = document.querySelectorAll('.classone')
-console.log(myElement[0]);
+// const myElement = document.querySelectorAll('.classone')
+// console.log(myElement[0]);
+
+const myPElements = document.querySelectorAll('p')
+
+myPElements.forEach(function (p) {
+    p.textContent = 'I am the changed loop in js'
+})
