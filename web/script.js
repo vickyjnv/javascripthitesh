@@ -25,3 +25,10 @@ document.querySelector('button').addEventListener('click', (event) => {
     // alert('button pressed')
     event.target.textContent = 'i was clicked'
 })
+
+
+//track input form
+document.querySelector('#myform').addEventListener('change', () => {
+    console.log(event.target.value);
+
+})
