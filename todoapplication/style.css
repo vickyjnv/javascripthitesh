@@ -101,6 +101,11 @@ body {
   border-radius: 10px;
 }
 
+#container .controls #remove {
+  background-color: rgb(105, 101, 102);
+  border-radius: 10px;
+}
+
 #container .mycheck {
   opacity: 1;
   border-radius: 10px;
