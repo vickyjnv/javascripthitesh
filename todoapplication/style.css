@@ -88,3 +88,29 @@ body {
   cursor: pointer;
   color: white;
 }
+
+#container .controls button:focus {
+  outline: 0;
+}
+
+#container .controls button:hover {
+  transform: scale(1.05);
+}
+#container .controls #add {
+  background-color: crimson;
+  border-radius: 10px;
+}
+
+#container .mycheck {
+  opacity: 1;
+  border-radius: 10px;
+}
+
+#container .mycheck {
+  opacity: 1;
+  border-radius: 10px;
+}
+.visual {
+  opacity: 1 !important;
+  border-radius: 10px;
+}
