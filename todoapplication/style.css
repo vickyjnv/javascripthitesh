@@ -26,6 +26,17 @@ body {
   padding-left: 0;
 }
 
-container ul li {
+#container ul li {
   list-style-type: none;
+  border: 2px solid #b5c5dd;
+  width: 80%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  height: 40px;
+  margin: 5px auto;
+  text-align: left;
+}
+#container ul li label {
+  margin: 0 auto;
+  vertical-align: middle;
 }
